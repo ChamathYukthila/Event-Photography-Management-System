@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+  }
+
+  body{
+    background-size: cover;
+  }
+  
+  .heading {
+    text-align: center;
+    color: goldenrod;
+    text-transform: capitalize;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: azure;
+
+  }
+  .birthday img{
+    width: 350px;
+    height: 500px;
+  }
+  
+  .school img{
+    width: 350px;
+    height: 500px;
+  }
+
+  .religious img{
+    width: 350px;
+    height: 500px;
+  }
+
+  
+  .view a{
+    text-transform: capitalize;
+    font-style: italic;
+    color: rgb(139, 221, 51);
+  }
+  
+  .view p:hover {
+    text-decoration: underline;
+    transition-property: underline;
+    transition-duration:5s;
+  }
+.txtadj{
+  text-align: center;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  background: url('Images/specialeventbg.jpg') no-repeat;
+  background-size:cover;
+  
+  }

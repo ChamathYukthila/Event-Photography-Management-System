@@ -1,0 +1,70 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  background: url('myaccount.jpg') no-repeat;
+  background-size: cover;
+}
+
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+
+
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  }
+  
+  .container h2 {
+    text-align: center;
+    color:#fff;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .form-group input[type="text"]
+  {
+    width: 90%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color:black;
+  }
+  
+  .from-group {
+    margin-bottom: 10px;
+    
+  }
+  
+  
+ .button {
+  text-align: center; /* Center the button horizontally */
+}
+
+.button button {
+  background-color: #4CAF50; /* Set the background color */
+  color: white; /* Set the text color */
+  padding: 10px 20px; /* Add padding around the button */
+  border: none; /* Remove the button border */
+  border-radius: 4px; /* Apply border radius */
+  cursor: pointer; /* Add cursor style on hover */
+}
+
+.button button:hover {
+  background-color: #078a0e; /* Change the background color on hover */
+}
+
+  
+  
+  

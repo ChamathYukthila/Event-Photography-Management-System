@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body{
+  background-size: cover;
+  background: url('A4.jpg') no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  color: gold;
+  text-transform: capitalize;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  color: azure;
+  margin-bottom: 20px;
+}
+
+.view {
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+.view a:link {
+  text-decoration: none;
+  color: azure;
+}
+
+.view a:visited {
+  text-decoration: none;
+  color: azure;
+}
+
+.view a:hover {
+  text-decoration: none;
+  color: azure;
+}
+
+.view a:active {
+  text-decoration: none;
+  color: azure;
+}
+
+.view p::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: gold;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.view p:hover::after{
+
+  width: 100%;
+}

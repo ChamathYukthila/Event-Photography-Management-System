@@ -1,0 +1,87 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body{
+  font-family: "Montserrat", sans-serif;
+  background: url("registration.jpg") no-repeat;
+  background-size: cover;
+
+}
+
+.body {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.container h2 {
+  text-align: center;
+  color:#fff;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="date"] {
+  width: 90%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color:black;
+}
+
+.from-group {
+  margin-bottom: 10px;
+  
+}
+
+
+button[name="signup"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.link {
+  color: #fff;
+  text-align: center;
+}
+
+.link a {
+  color: rgb(241, 200, 200);
+  text-decoration: none;
+}
+
+.link a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+

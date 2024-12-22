@@ -1,0 +1,77 @@
+	*{
+		font-family: "Montserrat", sans-serif;
+	}
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #515c6b;
+    }
+
+    .container {
+        max-width: 400px;
+        margin: 0 auto;
+        background-color: #ebe7e7;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .container h2 {
+        text-align: center;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="password"],
+    .form-group input[type="date"] {
+        width: 90%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    .from-group {
+        margin-bottom: 10px;
+      }
+      
+
+      button[name="signup"] {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      
+      button[name="signup"]:hover {
+        background-color: #0056b3;
+      }
+      
+      button[name="signup"]:focus {
+        outline: none;
+      }
+      
+      button[name="signup"]:active {
+        background-color: #004080;
+      }
+
+      .link {
+        text-align: right;
+      }
+
+      .link a {
+        color: blue;
+        text-decoration: none;
+      }
+      
+      .link a:hover {
+        color: darkblue;
+        text-decoration: underline;
+      }
+      
+

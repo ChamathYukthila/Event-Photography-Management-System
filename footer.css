@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.foot {
+  background-color: black;
+  color: azure;
+  margin-bottom: 6px;
+  padding: 15px;
+}
+.foot2 {
+  text-align: center;
+}

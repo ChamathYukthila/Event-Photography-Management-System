@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background: rgb(2, 43, 43);
+
+}
+
+.body {
+  display: flex;
+  padding: 0 35px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.photo {
+  max-width: 1200px;
+  position: relative;
+}
+
+.photo i {
+  top: 50%;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  position: absolute;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 46px;
+  background: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.photo i:first-child {
+  left: -23px;
+}
+
+.photo i:last-child {
+  right: -23px;
+}
+
+.photo .pic {
+  font-size: 0px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+.pic img {
+  height: 550px;
+  object-fit: cover;
+  margin-left: 14px;
+  width: calc(100% / 3);
+}
+
+.pic img:first-child {
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .pic img {
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .pic img {
+    width: 100%;
+  }
+}

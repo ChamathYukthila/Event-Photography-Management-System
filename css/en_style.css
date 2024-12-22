@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+  background: url("registration.jpg") no-repeat;
+  background-size: cover;
+
+}
+
+.heading{
+  text-align: center;
+  color: rgb(225, 235, 235);
+  text-transform: capitalize;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: aqua;
+
+}
+
+.musical img{
+  width: 350px;
+  height: 500px;
+}
+
+.get img{
+  width: 350px;
+  height: 500px;
+}
+
+.club img{
+  width: 350px;
+  height: 500px;
+}
+
+.view a{
+  text-transform: capitalize;
+  color: rgb(126, 182, 198);
+  font-style: italic;
+}
+
+.view p:hover{
+  text-decoration: underline;
+  transition-property: underline;
+  transition-duration:5s;
+}
+
+.txtadj{
+text-align: center;
+}
+
+body{
+justify-content: center;
+align-items: center;
+background: url('back2.jpg') no-repeat;
+background-size:cover;
+}

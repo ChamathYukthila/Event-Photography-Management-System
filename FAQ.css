@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.heading {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+  color: azure;
+}
+.questions {
+  margin-top: 50px;
+}
+.quesDiv {
+  margin-top: 50px;
+}
+
+.questions h1 {
+  text-transform: capitalize;
+  font-style: italic;
+  color: gold;
+}
+
+.quesDiv div {
+  box-sizing: border-box;
+  margin-top: 5px;
+  display: block;
+  color: azure;
+}

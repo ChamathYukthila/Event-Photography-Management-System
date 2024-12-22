@@ -1,0 +1,85 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Montserrat", sans-serif;
+	background: url('images/contactus.jpg') no-repeat;
+	background-size:cover;
+}
+
+.body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.container{
+	width: 80%;
+	margin: 50px auto;
+}
+.contact-box{
+	background: rgba(226, 225, 225, 0.6);
+	display: flex;
+	border-radius: 40px;
+}
+.contact-left{
+	flex-basis: 60%;
+	padding: 40px 60px;
+	
+	
+}
+.contact-right{
+	flex-basis: 40%;
+	padding: 40px;
+	background: #808080;
+	color: #FFFFFF;
+	border-radius: 40px;
+	
+}
+h3{
+	margin-bottom: 20px;
+}
+.input-spc{
+
+	
+	margin-bottom: 20px;
+
+}
+
+.input-group{
+	flex-basis: 45%;
+}
+input{
+	width: 100%;
+}
+textarea{
+	width: 100%;
+	border: 1px solid #000000;
+	outline: none;
+	padding: 10px;
+}
+label{
+	margin-bottom: 6px;
+	
+}
+button{
+	background: silver;
+	width: 100px;
+	border:none;
+	outline: none;
+	height: 35px;
+	border-radius: 30px;
+	margin-top: 20px;
+	
+}
+
+tr td:first-child{
+	padding-right:20px;
+}
+tr td{
+	padding-top:20px;
+}
